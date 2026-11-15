@@ -13,8 +13,8 @@ from google import genai
 
 logging.basicConfig(level=logging.INFO)
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_TOKEN =9151106485:AAFNSVS35z1hWJb2QgFZQI33sRG1618EP2g
+GEMINI_API_KEY =AQ.Ab8RN6JNQq9FweYLcxUbPewgXKOD-s3PCl89ucB2sCIGvGUa8Q
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
